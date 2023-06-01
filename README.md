@@ -43,14 +43,12 @@ Go to the torchlight folder and run the following:
 ```python setup.py install```
 
 
-**Running the models:**
-
 **Preparing data:**   
 
 We provide you the download links for the data and the pre-trained models. 
 The [UTKFACE](https://susanqq.github.io/UTKFace/) dataset includes both facial and body information. Download the data from [here](https://drive.google.com/file/d/15BIJlUsJ-F6HGUSYUXwTZLvdyKOskN_U/view?usp=sharing) and download the model from [here](https://drive.google.com/file/d/10WXfP3e5mPvH1qXzQGTyje69nnPzJ_yF/view?usp=sharing).  
 
-Please extract the .zip files and copy the downloaded ```data``` and ```model``` folders.
+Please extract the .zip files and copy the downloaded ```data``` and ```model``` folders to the root of the source codes.
 
 Fix the data and model paths in ```./config/ddgcn/utk_skel_face.yaml``` accordingly. 
 
@@ -58,7 +56,7 @@ Fix the data and model paths in ```./config/ddgcn/utk_skel_face.yaml``` accordin
 
 The input data is a *NxJXF* dimensional vector, where *N* is the number of samples, *J* is the number of skeletal-facial keypoints, and *F* is the size of each keypoint. In our experiments, *J=39* that includes *19* facial keypoints and *20* skeletal keypoints. *F=1536* that includes tiled coordinates of each keypoint followed by the flatten image patch centered around each keypoint.
 
-**Evaluating the results:**
+**Running the models:**
 
 Fix the path for the config file in ```run``` and use the following to run the model:
 
