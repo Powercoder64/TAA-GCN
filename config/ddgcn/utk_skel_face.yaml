@@ -1,0 +1,26 @@
+weights: /home/MATTHEW/TAAGCN/model/model_utk_skel_face.pt
+
+# feeder
+feeder: loader.loader.Loader
+
+test_feeder_args:
+
+  data_path: /home/MATTHEW/TAAGCN/data/data_utk_ver_skel_pix.npy
+  label_path: /home/MATTHEW/TAAGCN/data/label_utk_ver_skel_pix.npy
+# model
+model: net.dgcn.Model
+model_args:
+  in_channels: 1536
+  num_class: 117
+  edge_importance_weighting: True
+  graph_args:
+    layout: 'openpose_skeleton_face_39_points'
+    strategy: "spatial"
+
+# test
+phase: test
+device: 0
+test_batch_size: 64
+
+
+

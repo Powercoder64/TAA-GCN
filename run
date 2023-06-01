@@ -1,0 +1,1 @@
+python main.py classification -c /home/MATTHEW/TAAGCN/config/ddgcn/utk_skel_face.yaml
