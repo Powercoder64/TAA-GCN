@@ -26,7 +26,7 @@ Create a new Conda environment:
 ```conda create -n TAAGCN python=3.7```   
 ```conda activate TAAGCN```
 
-Install the libraries:
+Install the libraries:   
 ```conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch```   
 ```pip install PyYAML```   
 ```pip install argparse```   
