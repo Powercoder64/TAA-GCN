@@ -39,7 +39,7 @@ Install the libraries:
 Copy/download the repository and go to the root of the source code.   
 Go to the torchlight folder and run the following:  
 
-```cd TAA-GCN```   
+```cd TAA-GCN/torchlight```   
 ```python setup.py install```
 
 
