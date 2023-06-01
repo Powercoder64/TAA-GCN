@@ -90,5 +90,5 @@ If you find this repository useful please cite us:
   Korban, Matthew, Peter Youngs, and Scott T. Acton. "TAA-GCN: A temporally aware Adaptive Graph Convolutional Network for age estimation." Pattern Recognition 134 (2023): 109066.
   ```
 
-
+Currently, this repository only includes the data and model for the UTKFace dataset since it is the only public age dataset that includes both face and body. We might add the data and models for face-only datasets as well.  
 
