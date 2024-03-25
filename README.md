@@ -46,7 +46,7 @@ Go to the torchlight folder and run the following:
 **Preparing data:**   
 
 We provide you the download links for the data and the pre-trained models. 
-The [UTKFACE](https://susanqq.github.io/UTKFace/) dataset includes both facial and body information. Download the data from [here](https://drive.google.com/file/d/15BIJlUsJ-F6HGUSYUXwTZLvdyKOskN_U/view?usp=sharing) and download the model from [here](https://drive.google.com/file/d/10WXfP3e5mPvH1qXzQGTyje69nnPzJ_yF/view?usp=sharing).  
+The [UTKFACE](https://susanqq.github.io/UTKFace/) dataset includes both facial and body information. Download the data from [here](https://drive.google.com/file/d/15BIJlUsJ-F6HGUSYUXwTZLvdyKOskN_U/view?usp=sharing) and download the model from [here](https://drive.google.com/file/d/18XhWAkcXwALZ7WUU2BehcU3kAhTiG_6-/view?usp=sharing).  
 
 Please extract the .zip files and copy the downloaded ```data``` and ```model``` folders to the root of the source codes.
 
